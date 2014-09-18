@@ -7,6 +7,6 @@ typedef struct Student
 {
 int id;
 char* name;
-Teacher* teachers;
-Course* currentCourseList;
+teacherNodeType teachers;
+courseNodeType currentCourseList;
 } StudentType
