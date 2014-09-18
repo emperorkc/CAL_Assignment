@@ -1,0 +1,15 @@
+
+
+Structs:
+
+Struct Student(Name, Id, oldteachers[], courseNode)
+Struct StudentNode(Student, next*)
+Struct Teacher(Name, id, coursenode)
+Struct TeacherNode(Teacher, next*)
+Struct course(id, name, Semesternumber, StudentNode, Teacher)
+struct courseNode(Course, next*)
+
+Functions:
+
+
+Creating Student, Teachers, Courses.
