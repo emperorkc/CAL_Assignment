@@ -4,7 +4,7 @@
 typedef struct studentNode *StudentNodeTypePtr;
 typedef struct studentNode
 {
-StudentType* student;
+StudentType student;
 StudentNodeTypePtr next;
 
 }StudentNodeType;
