@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "student.h"
+#include "main.h"
 
 
 int readline(char s[],int lim)

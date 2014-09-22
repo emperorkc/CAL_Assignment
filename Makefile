@@ -25,7 +25,7 @@
     courseNode.o: courseNode.h
 		$(CC) $(CFLAGS) -c -o $@ $<
 
-    main.o: main.c
+    main.o: main.c main.h
 		$(CC) $(CFLAGS) -c -o $@ $<
 
     clean: FRC
