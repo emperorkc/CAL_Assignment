@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<student.h>
+#include "stdio.h"
+#include "student.h"
 
 typedef struct studentNode *StudentNodeTypePtr;
 typedef struct studentNode

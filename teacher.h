@@ -1,7 +1,7 @@
 #include "courseNode.h"
 
-typedef struct teacherNode {
+typedef struct teacher {
 	char* name;
 	int ID;
-	courseNode course;
+	courseNodeType course;
 } teacherType;

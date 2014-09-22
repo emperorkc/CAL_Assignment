@@ -1,9 +1,5 @@
+#include "student.h"
 
-typedef struct Student
-{
-int id;
-char* name;
-Teacher* teachers;
-Course* currentCourseList;
-} StudentType
-
+char* getName(StudentPtr student){
+	return student.name;
+}
